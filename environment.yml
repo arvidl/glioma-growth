@@ -1,0 +1,45 @@
+name: glioma-growth
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipython
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - jupyter
+  - openpyxl
+  - pyreadstat
+  - seaborn
+  - statsmodels
+  - scikit-image
+  - nilearn
+  - cmake
+  - pip:
+    - antspyx
+    # - interpret-community
+    # - pycaret[full]
+    # - ydata-profiling[notebook]
+    # - opencv-python
+
+
+
+# To install environment (once)
+# conda env update -f environment.yml
+# conda activate glioma-growth
+# conda deactivate   # back to (base)
+
+# To update the glioma-growth environment (if new versions become available):
+# conda update -n glioma-growth --all      # To update all packages in the named environment
+
+# To remove and reinstall the glioma-growth environment (if installation problems):
+# conda deactivate
+# conda env remove -n glioma-growth
+#   <fix iinstallation>
+# e.g. pip install --upgrade pycaret
+## Then, recreate the conda environment glioma-growth as above
+
+## OPTIONAL: To install a jupyter kernel GLIOMNA-LOC-LONG
+# python -m ipykernel install --user --name glioma-growth --display-name "GLIOMA-GROWTH"

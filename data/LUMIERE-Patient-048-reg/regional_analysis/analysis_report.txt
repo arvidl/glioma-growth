@@ -1,0 +1,63 @@
+
+    Glioma Progression Analysis Report
+    ================================
+
+    Analysis completed on: 2024-11-06 10:42:22.639591
+
+    Number of analyzed regions: 32
+    Number of skipped regions (zero baseline): 4
+
+    Volume Changes Summary:
+    ---------------------
+    Cerebral_WM_Left             3.521342
+Cerebral_WM_Right           11.768437
+Thalamus_Left                8.679316
+Thalamus_Right              22.398190
+Caudate_Left                10.353535
+Caudate_Right               45.353070
+Putamen_Left                29.360835
+Putamen_Right               42.216359
+Pallidum_Left               68.552253
+Pallidum_Right              53.594771
+Lateral_Ventricle_Left      22.619194
+Lateral_Ventricle_Right    154.304933
+Third_Ventricle            186.199095
+Fourth_Ventricle            40.293742
+CSF                         24.401099
+Hippocampus_Left             9.417304
+Hippocampus_Right           15.077014
+Amygdala_Left                7.686676
+Amygdala_Right              27.577938
+Frontal_Left                11.963530
+Frontal_Right               19.644743
+Parietal_Left               15.422405
+Parietal_Right              12.865084
+Temporal_Left                4.027171
+Temporal_Right              19.870733
+Occipital_Left              16.066874
+Occipital_Right             23.823529
+Brainstem                    2.975564
+Cerebellum_WM_Left           6.338890
+Cerebellum_WM_Right          7.745780
+Cerebellum_Cortex_Left      17.141130
+Cerebellum_Cortex_Right     11.671734
+
+    Most Correlated Regions:
+    ----------------------
+    Cerebral_WM_Left         Cerebral_WM_Left           1.0
+Cerebellum_Cortex_Right  Cerebellum_Cortex_Right    1.0
+Lateral_Ventricle_Left   Lateral_Ventricle_Left     1.0
+Cerebellum_WM_Right      Cerebellum_WM_Right        1.0
+CSF                      CSF                        1.0
+Cerebral_WM_Right        Cerebral_WM_Right          1.0
+Cerebellum_WM_Left       Cerebellum_WM_Left         1.0
+Fourth_Ventricle         Fourth_Ventricle           1.0
+Pallidum_Right           Pallidum_Right             1.0
+Hippocampus_Left         Hippocampus_Left           1.0
+
+    Analysis Files:
+    -------------
+    - Regional statistics: /Users/arvid/GitHub/glioma-growth/data/LUMIERE-Patient-048-reg/regional_analysis/region_stats.csv
+    - Correlation matrix: /Users/arvid/GitHub/glioma-growth/data/LUMIERE-Patient-048-reg/regional_analysis/region_correlations.csv
+    - Visualizations: /Users/arvid/GitHub/glioma-growth/data/LUMIERE-Patient-048-reg/visualizations
+    

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200">
+  <!-- Common styling for labels -->
+  <style>
+    .label { font-family: Arial; font-size: 12px; fill: #333; }
+  </style>
+  
+  <!-- Pattern 1: Complete Overlap -->
+  <g transform="translate(0, 0)">
+    <!-- Brain outline -->
+    <path d="M30,100 C40,60 80,20 120,20 C160,20 180,60 190,100 C180,140 160,180 120,180 C80,180 40,140 30,100" 
+          fill="#E6D5C3" stroke="#666" stroke-width="2"/>
+    <!-- Overlapping tumors -->
+    <circle cx="120" cy="90" r="15" fill="#FF4444" opacity="0.7"/>
+    <circle cx="120" cy="90" r="15" fill="#FF0000" opacity="0.7"/>
+    <text x="100" y="190" class="label">1. Complete Overlap</text>
+  </g>
+
+  <!-- Pattern 2: Partial Overlap -->
+  <g transform="translate(200, 0)">
+    <!-- Brain outline -->
+    <path d="M30,100 C40,60 80,20 120,20 C160,20 180,60 190,100 C180,140 160,180 120,180 C80,180 40,140 30,100" 
+          fill="#E6D5C3" stroke="#666" stroke-width="2"/>
+    <!-- Partially overlapping tumors -->
+    <circle cx="115" cy="90" r="15" fill="#FF4444" opacity="0.7"/>
+    <circle cx="130" cy="90" r="15" fill="#FF0000" opacity="0.7"/>
+    <text x="100" y="190" class="label">2. Partial Overlap</text>
+  </g>
+
+  <!-- Pattern 3: Slightly Separated -->
+  <g transform="translate(400, 0)">
+    <!-- Brain outline -->
+    <path d="M30,100 C40,60 80,20 120,20 C160,20 180,60 190,100 C180,140 160,180 120,180 C80,180 40,140 30,100" 
+          fill="#E6D5C3" stroke="#666" stroke-width="2"/>
+    <!-- Slightly separated tumors -->
+    <circle cx="100" cy="90" r="15" fill="#FF4444"/>
+    <circle cx="145" cy="90" r="15" fill="#FF0000"/>
+    <text x="100" y="190" class="label">3. Slightly Separated</text>
+  </g>
+
+  <!-- Pattern 4: Clearly Separated -->
+  <g transform="translate(600, 0)">
+    <!-- Brain outline -->
+    <path d="M30,100 C40,60 80,20 120,20 C160,20 180,60 190,100 C180,140 160,180 120,180 C80,180 40,140 30,100" 
+          fill="#E6D5C3" stroke="#666" stroke-width="2"/>
+    <!-- Clearly separated tumors -->
+    <circle cx="85" cy="90" r="15" fill="#FF4444"/>
+    <circle cx="160" cy="90" r="15" fill="#FF0000"/>
+    <text x="100" y="190" class="label">4. Clearly Separated</text>
+  </g>
+
+  <!-- Pattern 5: Very Distant -->
+  <g transform="translate(800, 0)">
+    <!-- Brain outline -->
+    <path d="M30,100 C40,60 80,20 120,20 C160,20 180,60 190,100 C180,140 160,180 120,180 C80,180 40,140 30,100" 
+          fill="#E6D5C3" stroke="#666" stroke-width="2"/>
+    <!-- Very distant tumors -->
+    <circle cx="70" cy="90" r="15" fill="#FF4444"/>
+    <circle cx="170" cy="90" r="15" fill="#FF0000"/>
+    <text x="100" y="190" class="label">5. Very Distant</text>
+  </g>
+</svg>
